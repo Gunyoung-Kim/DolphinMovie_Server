@@ -60,8 +60,8 @@ public class TheaterManager extends WithDataBase {
 				String name = resultSet.getString("name");
 				String address = resultSet.getString("address");
 				String lot_number = resultSet.getNString("lot_number");
-				float xpos = resultSet.getFloat("xpos");
-				float ypos = resultSet.getFloat("ypos");
+				double xpos = resultSet.getDouble("xpos");
+				double ypos = resultSet.getDouble("ypos");
 				boolean open = resultSet.getInt("open") == 1 ? true : false;
 				String link = resultSet.getString("link");
 				
@@ -131,8 +131,8 @@ public class TheaterManager extends WithDataBase {
 					"name varChar(255) NOT NULL," +
 					"address varChar(255)," +
 					"lot_number varChar(255)," +
-					"xpos FLOAT," +
-					"ypos FLOAT," +
+					"xpos DOUBLE," +
+					"ypos DOUBLE," +
 					"open BOOL," +
 					"link varChar(255)," +
 					"PRIMARY KEY(theater_code))");

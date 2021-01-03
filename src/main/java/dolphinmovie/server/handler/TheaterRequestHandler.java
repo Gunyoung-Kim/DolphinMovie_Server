@@ -67,6 +67,7 @@ public class TheaterRequestHandler extends SimpleChannelInboundHandler<FullHttpR
 			if(!keepAlive)
 				f.addListener(ChannelFutureListener.CLOSE);
 		} else {
+			System.out.println(msg.method().name() +" : "+ msg.uri());
 			ctx.fireChannelRead(msg);
 		}
 	}

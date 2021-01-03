@@ -130,3 +130,663 @@ Method:GET
 User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
 URI:/rank
 [금 1월 01 01:12:31 KST 2021]
+[INFO]
+HOST:/172.30.1.254:54002
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[토 1월 02 22:17:44 KST 2021]
+[INFO]
+HOST:/172.30.1.254:54002
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[토 1월 02 22:17:55 KST 2021]
+[INFO]
+HOST:/172.30.1.254:54046
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[토 1월 02 22:18:53 KST 2021]
+[INFO]
+HOST:/172.30.1.254:54046
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[토 1월 02 22:18:55 KST 2021]
+[INFO]
+HOST:/0:0:0:0:0:0:0:1:55071
+Method:GET
+User-Agent:Rested/2009 CFNetwork/1209.1 Darwin/20.2.0
+URI:/theater
+[토 1월 02 23:16:46 KST 2021]
+[INFO]
+HOST:/172.30.1.254:55358
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[토 1월 02 23:22:54 KST 2021]
+[INFO]
+HOST:/172.30.1.254:55358
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[토 1월 02 23:22:57 KST 2021]
+[INFO]
+HOST:/172.30.1.254:55506
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[토 1월 02 23:27:13 KST 2021]
+[INFO]
+HOST:/172.30.1.254:55506
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[토 1월 02 23:27:15 KST 2021]
+[INFO]
+HOST:/172.30.1.254:55637
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[토 1월 02 23:31:14 KST 2021]
+[INFO]
+HOST:/172.30.1.254:55637
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[토 1월 02 23:31:15 KST 2021]
+[INFO]
+HOST:/172.30.1.254:55672
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[토 1월 02 23:33:15 KST 2021]
+[INFO]
+HOST:/172.30.1.254:55672
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[토 1월 02 23:33:17 KST 2021]
+[INFO]
+HOST:/172.30.1.254:55754
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[토 1월 02 23:35:52 KST 2021]
+[INFO]
+HOST:/172.30.1.254:55754
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[토 1월 02 23:35:53 KST 2021]
+[INFO]
+HOST:/172.30.1.254:55839
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[토 1월 02 23:40:04 KST 2021]
+[INFO]
+HOST:/172.30.1.254:55850
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[토 1월 02 23:40:19 KST 2021]
+[INFO]
+HOST:/172.30.1.254:55850
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[토 1월 02 23:40:22 KST 2021]
+[INFO]
+HOST:/172.30.1.254:55918
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[토 1월 02 23:41:37 KST 2021]
+[INFO]
+HOST:/172.30.1.254:55918
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[토 1월 02 23:41:39 KST 2021]
+[INFO]
+HOST:/172.30.1.254:55979
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[토 1월 02 23:42:44 KST 2021]
+[INFO]
+HOST:/172.30.1.254:55979
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[토 1월 02 23:42:46 KST 2021]
+[INFO]
+HOST:/172.30.1.254:56169
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[토 1월 02 23:52:45 KST 2021]
+[INFO]
+HOST:/172.30.1.254:56169
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[토 1월 02 23:52:47 KST 2021]
+[INFO]
+HOST:/172.30.1.254:56355
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[토 1월 02 23:59:05 KST 2021]
+[INFO]
+HOST:/172.30.1.254:56355
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[토 1월 02 23:59:06 KST 2021]
+[INFO]
+HOST:/172.30.1.254:56582
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 00:01:59 KST 2021]
+[INFO]
+HOST:/172.30.1.254:56582
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[일 1월 03 00:02:06 KST 2021]
+[INFO]
+HOST:/172.30.1.254:56641
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 00:02:53 KST 2021]
+[INFO]
+HOST:/172.30.1.254:56641
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[일 1월 03 00:02:54 KST 2021]
+[INFO]
+HOST:/172.30.1.254:56754
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 00:04:15 KST 2021]
+[INFO]
+HOST:/172.30.1.254:56754
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[일 1월 03 00:04:29 KST 2021]
+[INFO]
+HOST:/172.30.1.254:52379
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1206 Darwin/20.1.0
+URI:/rank
+[일 1월 03 00:07:31 KST 2021]
+[INFO]
+HOST:/172.30.1.254:52379
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1206 Darwin/20.1.0
+URI:/theater
+[일 1월 03 00:07:35 KST 2021]
+[INFO]
+HOST:/172.30.1.254:57070
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 00:09:48 KST 2021]
+[INFO]
+HOST:/172.30.1.254:57107
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 00:10:34 KST 2021]
+[INFO]
+HOST:/172.30.1.254:57107
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[일 1월 03 00:10:36 KST 2021]
+[INFO]
+HOST:/172.30.1.254:52390
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1206 Darwin/20.1.0
+URI:/rank
+[일 1월 03 00:11:45 KST 2021]
+[INFO]
+HOST:/172.30.1.254:52390
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1206 Darwin/20.1.0
+URI:/theater
+[일 1월 03 00:11:46 KST 2021]
+[INFO]
+HOST:/172.30.1.254:57155
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 00:12:31 KST 2021]
+[INFO]
+HOST:/172.30.1.254:57155
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[일 1월 03 00:12:32 KST 2021]
+[INFO]
+HOST:/172.30.1.254:52425
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1206 Darwin/20.1.0
+URI:/rank
+[일 1월 03 00:14:03 KST 2021]
+[INFO]
+HOST:/172.30.1.254:52425
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1206 Darwin/20.1.0
+URI:/theater
+[일 1월 03 00:14:04 KST 2021]
+[INFO]
+HOST:/172.30.1.254:52441
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1206 Darwin/20.1.0
+URI:/rank
+[일 1월 03 00:16:25 KST 2021]
+[INFO]
+HOST:/172.30.1.254:52441
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1206 Darwin/20.1.0
+URI:/theater
+[일 1월 03 00:16:26 KST 2021]
+[INFO]
+HOST:/172.30.1.254:57264
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 00:17:35 KST 2021]
+[INFO]
+HOST:/172.30.1.254:57264
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[일 1월 03 00:17:37 KST 2021]
+[INFO]
+HOST:/172.30.1.254:57726
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 00:55:13 KST 2021]
+[INFO]
+HOST:/172.30.1.254:57726
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[일 1월 03 00:55:14 KST 2021]
+[INFO]
+HOST:/172.30.1.254:58175
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 01:18:31 KST 2021]
+[INFO]
+HOST:/172.30.1.254:58175
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[일 1월 03 01:18:33 KST 2021]
+[INFO]
+HOST:/172.30.1.254:58207
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 01:20:19 KST 2021]
+[INFO]
+HOST:/172.30.1.254:58207
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[일 1월 03 01:20:22 KST 2021]
+[INFO]
+HOST:/172.30.1.254:58235
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 01:20:50 KST 2021]
+[INFO]
+HOST:/172.30.1.254:58235
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[일 1월 03 01:20:51 KST 2021]
+[INFO]
+HOST:/172.30.1.254:58423
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 01:35:21 KST 2021]
+[INFO]
+HOST:/172.30.1.254:58423
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[일 1월 03 01:35:24 KST 2021]
+[INFO]
+HOST:/172.30.1.254:58761
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 01:52:00 KST 2021]
+[INFO]
+HOST:/172.30.1.254:58761
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[일 1월 03 01:52:04 KST 2021]
+[INFO]
+HOST:/172.30.1.254:58790
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 01:52:42 KST 2021]
+[INFO]
+HOST:/172.30.1.254:58790
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[일 1월 03 01:52:43 KST 2021]
+[INFO]
+HOST:/172.30.1.254:58826
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 01:53:21 KST 2021]
+[INFO]
+HOST:/172.30.1.254:58826
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[일 1월 03 01:53:23 KST 2021]
+[INFO]
+HOST:/172.30.1.254:58967
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 01:57:13 KST 2021]
+[INFO]
+HOST:/172.30.1.254:58967
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[일 1월 03 01:57:14 KST 2021]
+[INFO]
+HOST:/172.30.1.254:53446
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1206 Darwin/20.1.0
+URI:/rank
+[일 1월 03 01:58:08 KST 2021]
+[INFO]
+HOST:/172.30.1.254:53446
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1206 Darwin/20.1.0
+URI:/theater
+[일 1월 03 01:58:13 KST 2021]
+[INFO]
+HOST:/172.30.1.254:59169
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 02:03:53 KST 2021]
+[INFO]
+HOST:/172.30.1.254:59169
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[일 1월 03 02:03:56 KST 2021]
+[INFO]
+HOST:/172.30.1.254:59225
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 02:04:53 KST 2021]
+[INFO]
+HOST:/172.30.1.254:59225
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[일 1월 03 02:04:54 KST 2021]
+[INFO]
+HOST:/172.30.1.254:59330
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 02:08:03 KST 2021]
+[INFO]
+HOST:/172.30.1.254:59330
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[일 1월 03 02:08:05 KST 2021]
+[INFO]
+HOST:/172.30.1.254:59367
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 02:08:44 KST 2021]
+[INFO]
+HOST:/172.30.1.254:59367
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[일 1월 03 02:08:46 KST 2021]
+[INFO]
+HOST:/172.30.1.254:59469
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[일 1월 03 02:11:21 KST 2021]
+[INFO]
+HOST:/172.30.1.254:59469
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[일 1월 03 02:11:23 KST 2021]
+[INFO]
+HOST:/0:0:0:0:0:0:0:1:60434
+Method:GET
+User-Agent:Rested/2009 CFNetwork/1209.1 Darwin/20.2.0
+URI:/theater
+[일 1월 03 02:46:28 KST 2021]
+[INFO]
+HOST:/172.30.1.254:61631
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[월 1월 04 02:28:31 KST 2021]
+[INFO]
+HOST:/172.30.1.254:61631
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[월 1월 04 02:28:43 KST 2021]
+[INFO]
+HOST:/172.30.1.254:61707
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[월 1월 04 02:29:52 KST 2021]
+[INFO]
+HOST:/172.30.1.254:61738
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[월 1월 04 02:30:35 KST 2021]
+[INFO]
+HOST:/172.30.1.254:61788
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[월 1월 04 02:31:36 KST 2021]
+[INFO]
+HOST:/172.30.1.254:62547
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[월 1월 04 02:47:34 KST 2021]
+[INFO]
+HOST:/172.30.1.254:62575
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[월 1월 04 02:47:58 KST 2021]
+[INFO]
+HOST:/172.30.1.254:63080
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[월 1월 04 03:01:03 KST 2021]
+[INFO]
+HOST:/172.30.1.254:63097
+Method:POST
+User-Agent:DMovie/1.0 (kenny.DMovie; build:1; iOS 14.3.0) Alamofire/5.4.0
+URI:/login
+[월 1월 04 03:01:25 KST 2021]
+[INFO]
+HOST:/0:0:0:0:0:0:0:1:63191
+Method:POST
+User-Agent:Rested/2009 CFNetwork/1209.1 Darwin/20.2.0
+URI:/login
+[월 1월 04 03:05:29 KST 2021]
+[INFO]
+HOST:/0:0:0:0:0:0:0:1:63228
+Method:POST
+User-Agent:Rested/2009 CFNetwork/1209.1 Darwin/20.2.0
+URI:/login
+[월 1월 04 03:06:48 KST 2021]
+[INFO]
+HOST:/0:0:0:0:0:0:0:1:63246
+Method:POST
+User-Agent:Rested/2009 CFNetwork/1209.1 Darwin/20.2.0
+URI:/login
+[월 1월 04 03:07:51 KST 2021]
+[INFO]
+HOST:/0:0:0:0:0:0:0:1:63266
+Method:POST
+User-Agent:Rested/2009 CFNetwork/1209.1 Darwin/20.2.0
+URI:/logout
+[월 1월 04 03:08:18 KST 2021]
+[INFO]
+HOST:/172.30.1.254:63277
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[월 1월 04 03:08:32 KST 2021]
+[INFO]
+HOST:/172.30.1.254:63287
+Method:POST
+User-Agent:DMovie/1.0 (kenny.DMovie; build:1; iOS 14.3.0) Alamofire/5.4.0
+URI:/login
+[월 1월 04 03:08:43 KST 2021]
+[INFO]
+HOST:/172.30.1.254:63645
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[월 1월 04 03:14:35 KST 2021]
+[INFO]
+HOST:/172.30.1.254:63645
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[월 1월 04 03:14:37 KST 2021]
+[INFO]
+HOST:/172.30.1.254:63717
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[월 1월 04 03:16:43 KST 2021]
+[INFO]
+HOST:/172.30.1.254:63717
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[월 1월 04 03:16:47 KST 2021]
+[INFO]
+HOST:/172.30.1.254:63780
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[월 1월 04 03:19:31 KST 2021]
+[INFO]
+HOST:/172.30.1.254:63780
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[월 1월 04 03:19:32 KST 2021]
+[INFO]
+HOST:/172.30.1.254:63842
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/rank
+[월 1월 04 03:21:44 KST 2021]
+[INFO]
+HOST:/172.30.1.254:63842
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1209 Darwin/20.2.0
+URI:/theater
+[월 1월 04 03:21:45 KST 2021]
+[INFO]
+HOST:/172.30.1.254:54094
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1206 Darwin/20.1.0
+URI:/rank
+[월 1월 04 03:22:58 KST 2021]
+[INFO]
+HOST:/172.30.1.254:54094
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1206 Darwin/20.1.0
+URI:/theater
+[월 1월 04 03:23:04 KST 2021]
+[INFO]
+HOST:/172.30.1.254:54180
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1206 Darwin/20.1.0
+URI:/rank
+[월 1월 04 03:35:09 KST 2021]
+[INFO]
+HOST:/172.30.1.254:54180
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1206 Darwin/20.1.0
+URI:/theater
+[월 1월 04 03:35:15 KST 2021]
+[INFO]
+HOST:/172.30.1.254:54213
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1206 Darwin/20.1.0
+URI:/rank
+[월 1월 04 03:37:10 KST 2021]
+[INFO]
+HOST:/172.30.1.254:54213
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1206 Darwin/20.1.0
+URI:/theater
+[월 1월 04 03:37:12 KST 2021]
+[INFO]
+HOST:/172.30.1.254:54252
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1206 Darwin/20.1.0
+URI:/rank
+[월 1월 04 03:44:38 KST 2021]
+[INFO]
+HOST:/172.30.1.254:54262
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1206 Darwin/20.1.0
+URI:/rank
+[월 1월 04 03:44:48 KST 2021]
+[INFO]
+HOST:/172.30.1.254:54262
+Method:GET
+User-Agent:DMovie/1 CFNetwork/1206 Darwin/20.1.0
+URI:/theater
+[월 1월 04 03:45:00 KST 2021]

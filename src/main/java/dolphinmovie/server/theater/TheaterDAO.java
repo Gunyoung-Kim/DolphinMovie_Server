@@ -27,8 +27,8 @@ public class TheaterDAO {
 	private String name;
 	private String address;
 	private String lot_number;
-	private float xpos;
-	private float ypos;
+	private double xpos;
+	private double ypos;
 	private boolean open = true;
 	private String link = ".";
 	
@@ -64,7 +64,7 @@ public class TheaterDAO {
 	
 	
 	
-	public TheaterDAO(String name, String address, String lot_number, float xpos, float ypos, boolean open,
+	public TheaterDAO(String name, String address, String lot_number, double xpos, double ypos, boolean open,
 			String link) {
 		this.name = name;
 		this.address = address;
@@ -93,8 +93,8 @@ public class TheaterDAO {
 				LogManager.errorLog(address + "position not found\n");
 				throw new NoHttpResponseException();
 			}
-			float xpos = Float.parseFloat((String)(((JSONObject)addresses.get(0)).get("x")));
-			float ypos = Float.parseFloat((String)(((JSONObject)addresses.get(0)).get("y")));
+			double xpos = Double.parseDouble((String)(((JSONObject)addresses.get(0)).get("x")));
+			double ypos = Double.parseDouble((String)(((JSONObject)addresses.get(0)).get("y")));
 			pos = new Pos(xpos,ypos);
 			return pos;
 		} catch(MalformedURLException e) {
@@ -131,11 +131,11 @@ public class TheaterDAO {
 		return lot_number;
 	}
 
-	public float getXpos() {
+	public double getXpos() {
 		return xpos;
 	}
 
-	public float getYpos() {
+	public double getYpos() {
 		return ypos;
 	}
 
@@ -184,10 +184,10 @@ public class TheaterDAO {
 	}
 	
 	private static class Pos {
-		float xpos;
-		float ypos;
+		double xpos;
+		double ypos;
 		
-		public Pos(float xpos, float ypos) {
+		public Pos(double xpos, double ypos) {
 			super();
 			this.xpos = xpos;
 			this.ypos = ypos;

@@ -36,12 +36,12 @@ public class MemberManager extends WithDataBase {
 	public MemberDAO login(String id, String password) {
 		try {
 			Connection connection = getConnection();
-			PreparedStatement login = connection.prepareStatement("SELECT id, password FROM " + TABLE_NAME + " WHERE id = " +"\"" +id+"\"");
+			PreparedStatement login = connection.prepareStatement("SELECT id, password, name FROM " + TABLE_NAME + " WHERE id = " +"\"" +id+"\"");
 			ResultSet result = login.executeQuery();
 			MemberDAO member;
 			if(result.next()) {
 				String pw = result.getString("password");
-				String name = result.getNString("name");
+				String name = result.getString("name");
 				if(password.equals(pw)) {
 					member = new MemberDAO(id,password,name);
 					return member;

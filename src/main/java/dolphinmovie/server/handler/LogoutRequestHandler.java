@@ -60,7 +60,7 @@ public class LogoutRequestHandler extends SimpleChannelInboundHandler<FullHttpRe
 			JSONObject responseJSON = new JSONObject();
 			
 			if(logoutResult == null) {
-				responseJSON.put("result_code", 0);
+				responseJSON.put("result_code", 404);
 				responseJSON.put("result", "FAIL");
 				responseJSON.put("error_msg", "fail");
 			} else {
