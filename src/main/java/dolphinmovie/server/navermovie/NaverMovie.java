@@ -55,12 +55,15 @@ public class NaverMovie {
 			int[] dailyRankIntens = kobis.getDailyBoxofficeMovieRankInten();
 			int[] weeklyRankIntens = kobis.getWeeklyBoxifficeMovieRankInten();
 			
+			int[] dailyOpenYear = kobis.getDailyBoxofficeMovieOpenDateYear();
+			int[] weeklyOpenYear = kobis.getWeeklyBoxofficeMovieOpenDateYear();
+			
 			boolean[] dailyOldAndNew = kobis.getDailyBoxofficeMovieRankOldAndNew();
 			boolean[] weeklyOldAndNew = kobis.getWeeklyBoxofficeMovieRankOldAndNew();
 			
 			int i=0;
 			for(String name: dailyMoviesName) {
-				JSONObject o = getSingleMovieInfo(name);
+				JSONObject o = getSingleMovieInfo(name,dailyOpenYear[i]);
 				daily.add(o);
 				try {
 					Thread.sleep(100);
@@ -85,7 +88,7 @@ public class NaverMovie {
 			
 			i=0;
 			for(String name: weeklyMoviesName) {
-				JSONObject o = getSingleMovieInfo(name);
+				JSONObject o = getSingleMovieInfo(name,weeklyOpenYear[i]);
 				weekly.add(o);
 				try {
 					Thread.sleep(100);
@@ -109,12 +112,12 @@ public class NaverMovie {
 		}
 	}
 	
-	private JSONObject getSingleMovieInfo(String movieName) {
+	private JSONObject getSingleMovieInfo(String movieName,int openYear) {
 		JSONObject result = null;
 		try {
 			String urlString = "https://openapi.naver.com/v1/search/movie.json?query=";
 			urlString += URLEncoder.encode(movieName, "UTF-8");
-			urlString += "&display=1";
+			urlString += "&display=1&yearfrom=" + (openYear-1) + "&yearto=" + openYear;
 			URL url = new URL(urlString);
 			HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 			connection.addRequestProperty("X-Naver-Client-Id", "7byI1OLh_QSu1PIBHm9c");

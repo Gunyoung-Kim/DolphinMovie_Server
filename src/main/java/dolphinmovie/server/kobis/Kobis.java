@@ -159,6 +159,30 @@ public class Kobis {
 		return arr;
 	}
 	
+	public int[] getDailyBoxofficeMovieOpenDateYear() {
+		int[] arr = new int[dailyBoxoffice.size()];
+		int i = 0;
+		for(Object o: dailyBoxoffice) {
+			JSONObject jo = (JSONObject) o;
+			String str = (String) jo.get("openDt");
+			arr[i++] = Integer.parseInt(str.substring(0, 4));
+		}
+		
+		return arr;
+	}
+	
+	public int[] getWeeklyBoxofficeMovieOpenDateYear() {
+		int[] arr = new int[weeklyBoxoffice.size()];
+		int i = 0;
+		for(Object o: weeklyBoxoffice) {
+			JSONObject jo = (JSONObject) o;
+			String str = (String) jo.get("openDt");
+			arr[i++] = Integer.parseInt(str.substring(0, 4));
+		}
+		
+		return arr;
+	}
+	
 	// updated -> return true , nonupdated -> return false
 	public boolean getNewBoxOffice(String targetDt) {
 		if(dailyBoxoffice == null || weeklyBoxoffice == null || lastUpdatedDay == null || DateManager.isDayChanged(targetDt, this.lastUpdatedDay)) {
