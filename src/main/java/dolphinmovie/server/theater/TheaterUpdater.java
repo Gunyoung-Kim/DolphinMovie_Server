@@ -72,13 +72,18 @@ public class TheaterUpdater {
 					
 					Elements eles = doc.getElementsByClass("link_name");
 					Elements address = doc.getElementsByClass("addr");
+					Elements links = doc.getElementsByClass("homepage");
 					
 					
 					for(int k=0;k<eles.size();k++) {
 						String name = eles.get(k).text();
 						String addr = address.get(k).text();
+						String link = links.get(k).absUrl("href");
 						
-						theaterList.add(new TheaterDAO(name,addr));
+						if(link.equals(""))
+							theaterList.add(new TheaterDAO(name,addr));
+						else
+							theaterList.add(new TheaterDAO(name,addr,link));
 					}
 					if(i==6 && j==4)
 						break;
@@ -99,5 +104,4 @@ public class TheaterUpdater {
 				driver.close();
 		}
 	}
-	
 }

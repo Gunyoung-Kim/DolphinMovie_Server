@@ -45,10 +45,6 @@ public class TheaterManager extends WithDataBase {
 		return theaterList;
 	}
 	
-	//
-	//
-	//
-	
 	private void loadAllTheaters() {
 		try {
 			Connection connection = getConnection();
@@ -91,7 +87,7 @@ public class TheaterManager extends WithDataBase {
 				"(name,address,lot_number,xpos,ypos,open,link)" +
 				"VALUES");
 		for(TheaterDAO theater: list) {
-			sb.append("('"+theater.getName()+"','"+theater.getAddress()+"','"+theater.getLot_number()+"','"+theater.getXpos()+"','"+theater.getYpos()+"','"+theater.getOpenInt()+"','"+"."+"'),");
+			sb.append("('"+theater.getName()+"','"+theater.getAddress()+"','"+theater.getLot_number()+"','"+theater.getXpos()+"','"+theater.getYpos()+"','"+theater.getOpenInt()+"','"+theater.getLink()+"'),");
 		}
 		
 		sb.deleteCharAt(sb.length()-1);
@@ -112,7 +108,7 @@ public class TheaterManager extends WithDataBase {
 					"INSERT INTO " +TABLE_NAME +
 					"(name,address,lot_number,xpos,ypos,open,link)" +
 					"VALUE" +
-					"('"+theater.getName()+"','"+theater.getAddress()+"','"+theater.getLot_number()+"','"+theater.getXpos()+"','"+theater.getYpos()+"','"+theater.getOpenInt()+"','"+"."+"')");
+					"('"+theater.getName()+"','"+theater.getAddress()+"','"+theater.getLot_number()+"','"+theater.getXpos()+"','"+theater.getYpos()+"','"+theater.getOpenInt()+"','"+theater.getLink()+"')");
 			addTheater.executeUpdate();
 			System.out.println(theater.getName() + " Registered");
 		} catch(Exception e) {

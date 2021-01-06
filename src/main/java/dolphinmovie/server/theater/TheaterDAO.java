@@ -30,7 +30,7 @@ public class TheaterDAO {
 	private double xpos;
 	private double ypos;
 	private boolean open = true;
-	private String link = ".";
+	private String link = "";
 	
 	public TheaterDAO(String name, String address) {
 		int isOpen = isOpened(name);
@@ -62,6 +62,11 @@ public class TheaterDAO {
 		}
 	}
 	
+	public TheaterDAO(String name, String address, String link) {
+		this(name, address);
+		
+		this.link = link;
+	}
 	
 	
 	public TheaterDAO(String name, String address, String lot_number, double xpos, double ypos, boolean open,
