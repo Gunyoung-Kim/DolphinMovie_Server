@@ -4,6 +4,7 @@ import java.net.InetSocketAddress;
 
 import dolphinmovie.server.handler.SBChildHandlerInitializer;
 import dolphinmovie.server.log.LogManager;
+import dolphinmovie.server.util.Security;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
@@ -12,6 +13,7 @@ import io.netty.channel.ChannelInitializer;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.handler.ssl.SslContext;
 
 public class DMServerBootstrap {
 	private final EventLoopGroup group = new NioEventLoopGroup();
@@ -19,9 +21,14 @@ public class DMServerBootstrap {
 	
 	public ChannelFuture start(InetSocketAddress address) {
 		ServerBootstrap b = new ServerBootstrap();
-		b.group(group)
-		 .channel(NioServerSocketChannel.class)
-		 .childHandler(createInitializer());
+		try {
+			b.group(group)
+			 .channel(NioServerSocketChannel.class)
+			 .childHandler(createInitializer());
+		} catch (Exception e) {
+			LogManager.errorLog(e.getLocalizedMessage());
+			e.printStackTrace();
+		}
 		ChannelFuture f = b.bind(address);
 		f.addListener(new ChannelFutureListener() {
 
@@ -51,8 +58,9 @@ public class DMServerBootstrap {
 		group.shutdownGracefully();
 	}
 	
-	private ChannelInitializer<Channel> createInitializer() {
-		return new SBChildHandlerInitializer();
+	private ChannelInitializer<Channel> createInitializer() throws Exception {
+		SslContext context = Security.getsslContext();
+		return new SBChildHandlerInitializer(context);
 	}
 	
 	
