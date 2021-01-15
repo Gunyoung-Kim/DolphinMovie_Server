@@ -1,5 +1,9 @@
 # DolphinMovie_Server
 
+- 당면 과제
+ sslHandler 구현은 했으나 인증서의 문제로 safari나 rested 에선 접근되나 ios에서는 안됨 해결하자 이거 인증서 바꿔도 이제는 크롬에서도 되는ㄷ ios에서는 여젆 안됨 
+ 도메인 네임때문에 그런듯 도메인 사야되 철수
+
 __Netty__ 프레임워크 기반의 Dolphin_Movie_Client 용 REST API 서버 
 
 ---
