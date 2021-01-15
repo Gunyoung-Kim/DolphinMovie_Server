@@ -22,11 +22,12 @@ public class SBChildHandlerInitializer extends ChannelInitializer<Channel> {
 	@Override
 	protected void initChannel(Channel ch) throws Exception {
 		ChannelPipeline pipeline = ch.pipeline();
+		/*
 		if(context != null) {
 			SSLEngine engine = context.newEngine(ch.alloc());
-			engine.setNeedClientAuth(false);
 			pipeline.addLast(new SslHandler(engine));
 		}
+		*/
 		pipeline.addLast(new HttpServerCodec());
 		pipeline.addLast(new HttpContentCompressor());
 		pipeline.addLast(new HttpObjectAggregator(512*1024));
