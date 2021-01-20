@@ -23,6 +23,7 @@ import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 
 import dolphinmovie.server.log.LogManager;
+import dolphinmovie.server.navermovie.CurrentScreeningMovie;
 import dolphinmovie.server.navermovie.NaverMovie;
 import dolphinmovie.server.theater.TheaterDAO;
 import dolphinmovie.server.theater.TheaterManager;
@@ -35,6 +36,7 @@ public class DMServerMainUI extends JFrame {
 	private JTable theaterListTable = new JTable();
 	private JTextField userSearchString = new JTextField(30);
 	private NaverMovie naverMovie = NaverMovie.getInstance();
+	private CurrentScreeningMovie screeningMovie = CurrentScreeningMovie.getInstance();
 	private JButton userSearchBtn = new JButton("Find");
 	private JLabel concurrentUserLabel = new JLabel("0");
 	

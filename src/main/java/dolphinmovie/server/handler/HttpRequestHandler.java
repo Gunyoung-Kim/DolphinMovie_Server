@@ -9,6 +9,7 @@ import org.json.simple.JSONObject;
 
 import dolphinmovie.server.log.LogManager;
 import dolphinmovie.server.movieInfo.MovieDAO;
+import dolphinmovie.server.navermovie.CurrentScreeningMovie;
 import dolphinmovie.server.navermovie.NaverMovie;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelFuture;
@@ -28,9 +29,11 @@ import io.netty.util.CharsetUtil;
 public class HttpRequestHandler extends SimpleChannelInboundHandler<FullHttpRequest>{
 
 	NaverMovie naverMovie;
+	CurrentScreeningMovie screeningMovie;
 	
 	public HttpRequestHandler() {
 		this.naverMovie = NaverMovie.getInstance();
+		this.screeningMovie = CurrentScreeningMovie.getInstance();
 	}
 	
 	@Override 
@@ -50,6 +53,7 @@ public class HttpRequestHandler extends SimpleChannelInboundHandler<FullHttpRequ
 		if(msg.method().name().equals("GET") && msg.uri().equals("/rank")) {
 			LinkedList<MovieDAO> dailyDAO = naverMovie.getDailyDAO();
 			LinkedList<MovieDAO> weeklyDAO = naverMovie.getWeeklyDAO();
+			LinkedList<MovieDAO> screeningDAO = screeningMovie.getCurrentScreeningMovies();
 			
 			//logging
 			System.out.println(msg);
@@ -61,7 +65,7 @@ public class HttpRequestHandler extends SimpleChannelInboundHandler<FullHttpRequ
 			LogManager.httpLog(map);
 			
 			//buildup data
-			String result = proccessMovieInfo(dailyDAO,weeklyDAO);
+			String result = proccessMovieInfo(dailyDAO,weeklyDAO,screeningDAO);
 			
 			//buildup httpresponse
 			HttpResponse response = new DefaultHttpResponse(msg.protocolVersion(), HttpResponseStatus.OK);
@@ -93,7 +97,7 @@ public class HttpRequestHandler extends SimpleChannelInboundHandler<FullHttpRequ
 		ctx.flush();
 	}
 	
-	private String proccessMovieInfo(LinkedList<MovieDAO> daily, LinkedList<MovieDAO> weekly) {
+	private String proccessMovieInfo(LinkedList<MovieDAO> daily, LinkedList<MovieDAO> weekly, LinkedList<MovieDAO> screening) {
 		JSONObject json = new JSONObject();
 	
 		JSONArray dailyArr = new JSONArray();
@@ -108,9 +112,16 @@ public class HttpRequestHandler extends SimpleChannelInboundHandler<FullHttpRequ
 			weeklyArr.add(movie_json);
 		}
 		
+		JSONArray screeningArr = new JSONArray();
+		for(MovieDAO movie: screening) {
+			JSONObject movie_json = movie.toJSONObject();
+			screeningArr.add(movie_json);
+		}
+		
 		JSONObject result = new JSONObject();
 		result.put("dailyMovies", dailyArr);
 		result.put("weeklyMovies", weeklyArr);
+		result.put("screeningMovies", screeningArr);
 		json.put("boxofficeResult", result);
 		
 		return json.toJSONString();

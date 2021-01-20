@@ -17,6 +17,14 @@ public class MovieDAO {
 		this.infoLink = infoLink;
 	}
 	
+	public MovieDAO(String movieName, String thumbnailLink, String infoLink) {
+		this.movieName = movieName;
+		this.rankInten = 0;
+		this.rankOldAndNew = true;
+		this.thumbnailLink = thumbnailLink;
+		this.infoLink = infoLink;
+	}
+	
 	public JSONObject toJSONObject() {
 		JSONObject object = new JSONObject();
 		

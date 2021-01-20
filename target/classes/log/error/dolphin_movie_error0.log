@@ -150,3 +150,109 @@ refCnt: 0, decrement: 1[수 1월 13 02:41:12 KST 2021]
 refCnt: 0, decrement: 1[수 1월 13 02:41:12 KST 2021]
 [SEVERE]
 Connection reset[수 1월 13 02:41:33 KST 2021]
+[SEVERE]
+refCnt: 0, decrement: 1[수 1월 13 02:44:45 KST 2021]
+[SEVERE]
+refCnt: 0, decrement: 1[토 1월 16 00:18:36 KST 2021]
+[SEVERE]
+Connection reset[수 1월 20 19:55:45 KST 2021]
+[SEVERE]
+Connection reset[수 1월 20 19:55:45 KST 2021]
+[SEVERE]
+Connection reset[수 1월 20 19:57:49 KST 2021]
+[SEVERE]
+Connection reset[수 1월 20 19:59:19 KST 2021]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-01-20T12:12:42.995829Z</date>
+  <millis>1611144762995</millis>
+  <nanos>829000</nanos>
+  <sequence>1</sequence>
+  <logger>error</logger>
+  <level>SEVERE</level>
+  <class>dolphinmovie.server.log.LogManager</class>
+  <method>errorLog</method>
+  <thread>1</thread>
+  <message>no such element: Unable to locate element: {"method":"css selector","selector":".pg_next\ on\ _next"}
+  (Session info: headless chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'gimgeon-yeong-ui-MacBookPro.local', ip: 'fe80:0:0:0:451:f547:5e63:63f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/vp/l6pr_13n5v3...}, goog:chromeOptions: {debuggerAddress: localhost:54018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 889f766985f0010cdfc9febd01787c77
+*** Element info: {Using=class name, value=pg_next on _next}</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-01-20T12:13:45.555844Z</date>
+  <millis>1611144825555</millis>
+  <nanos>844000</nanos>
+  <sequence>1</sequence>
+  <logger>error</logger>
+  <level>SEVERE</level>
+  <class>dolphinmovie.server.log.LogManager</class>
+  <method>errorLog</method>
+  <thread>1</thread>
+  <message>no such element: Unable to locate element: {"method":"css selector","selector":".pg_next\.on\._next"}
+  (Session info: headless chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'gimgeon-yeong-ui-MacBookPro.local', ip: 'fe80:0:0:0:451:f547:5e63:63f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/vp/l6pr_13n5v3...}, goog:chromeOptions: {debuggerAddress: localhost:54310}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 57ec32e66da990c450dd64b453d27028
+*** Element info: {Using=class name, value=pg_next.on._next}</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-01-20T12:17:03.419039Z</date>
+  <millis>1611145023419</millis>
+  <nanos>39000</nanos>
+  <sequence>1</sequence>
+  <logger>error</logger>
+  <level>SEVERE</level>
+  <class>dolphinmovie.server.log.LogManager</class>
+  <method>errorLog</method>
+  <thread>1</thread>
+  <message>no such element: Unable to locate element: {"method":"css selector","selector":".pg_next\ on\ _next"}
+  (Session info: headless chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'gimgeon-yeong-ui-MacBookPro.local', ip: 'fe80:0:0:0:451:f547:5e63:63f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/vp/l6pr_13n5v3...}, goog:chromeOptions: {debuggerAddress: localhost:55192}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9c9900310801840bf69c9452f2f20e59
+*** Element info: {Using=class name, value=pg_next on _next}</message>
+</record>
+</log>
+[SEVERE]
+Connection reset[수 1월 20 21:43:05 KST 2021]
+[SEVERE]
+Connection reset[수 1월 20 21:44:00 KST 2021]
+[SEVERE]
+Connection reset[수 1월 20 21:44:03 KST 2021]
+[SEVERE]
+Connection reset[수 1월 20 22:30:42 KST 2021]
+[SEVERE]
+Connection reset[수 1월 20 22:30:45 KST 2021]
+[SEVERE]
+refCnt: 0, decrement: 1[수 1월 20 22:37:48 KST 2021]
+[SEVERE]
+refCnt: 0, decrement: 1[수 1월 20 22:37:48 KST 2021]
+[SEVERE]
+refCnt: 0, decrement: 1[수 1월 20 22:37:48 KST 2021]
+[SEVERE]
+refCnt: 0, decrement: 1[수 1월 20 22:37:48 KST 2021]
+[SEVERE]
+refCnt: 0, decrement: 1[수 1월 20 22:37:48 KST 2021]
+[SEVERE]
+refCnt: 0, decrement: 1[수 1월 20 22:37:48 KST 2021]
